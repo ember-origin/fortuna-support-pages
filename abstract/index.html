@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="《抽象》iPhone 游戏的技术支持页面。" />
+    <title>抽象｜技术支持</title>
+    <style>
+      :root { color-scheme: light; --ink: #16181d; --muted: #5e6470; --line: #dde0e6; --card: #ffffffdf; --blue: #135ccc; --coral: #e85f55; --yellow: #ffd65a; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-width: 320px; color: var(--ink); background: linear-gradient(135deg, #fff4cf 0%, #f9e7e7 42%, #e3edff 100%); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Noto Sans SC", sans-serif; line-height: 1.6; }
+      main { width: min(760px, calc(100% - 32px)); margin: 0 auto; padding: 52px 0 64px; }
+      .eyebrow { display: inline-block; margin: 0 0 13px; padding: 5px 11px; border-radius: 999px; background: #fff9; color: #3d4551; font-size: .85rem; font-weight: 650; letter-spacing: .04em; }
+      h1 { margin: 0; max-width: 650px; font-size: clamp(2.25rem, 8vw, 4.45rem); letter-spacing: -.075em; line-height: .98; }
+      .lead { max-width: 570px; margin: 19px 0 30px; color: #353b47; font-size: 1.16rem; }
+      .card { margin: 20px 0; padding: clamp(22px, 5vw, 34px); border: 1px solid #ffffffb3; border-radius: 24px; background: var(--card); box-shadow: 0 18px 50px #594c4317; backdrop-filter: blur(12px); }
+      h2 { margin: 0 0 12px; font-size: 1.35rem; letter-spacing: -.035em; }
+      h3 { margin: 24px 0 5px; font-size: 1.02rem; }
+      p { margin: 7px 0; }
+      ul { margin: 9px 0 0; padding-left: 1.25em; }
+      a { color: var(--blue); font-weight: 650; text-underline-offset: 3px; }
+      .contact { display: inline-flex; align-items: center; margin-top: 10px; padding: 11px 15px; border: 1px solid #b6c9ef; border-radius: 12px; background: #f4f8ff; text-decoration: none; }
+      .contact:hover { background: #e9f1ff; }
+      .nav { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 30px; font-size: .95rem; }
+      footer { margin-top: 31px; color: var(--muted); font-size: .86rem; }
+      .mark { color: var(--coral); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Ember Origin · iPhone 游戏</p>
+      <h1>《抽象》<span class="mark">技术支持</span></h1>
+      <p class="lead">这是《抽象》——一款可离线游玩的卡通互动小游戏——的帮助页面。遇到问题时，请把设备与复现步骤告诉我们。</p>
+
+      <section class="card" aria-labelledby="contact-title">
+        <h2 id="contact-title">联系我们</h2>
+        <p>请附上 App 版本、iPhone 型号、iOS 版本、问题出现的步骤，以及方便时提供的截图。请勿发送 Apple ID 密码、支付信息或其他敏感资料。</p>
+        <a class="contact" href="mailto:quickly520@126.com?subject=%E3%80%8A%E6%8A%BD%E8%B1%A1%E3%80%8B%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81">quickly520@126.com</a>
+      </section>
+
+      <section class="card" aria-labelledby="help-title">
+        <h2 id="help-title">常见问题</h2>
+        <h3>如何挥鞭？</h3>
+        <p>轻点游戏画面会自动挥出一鞭；按住并拖动可亲手控制鞭柄。</p>
+        <h3>如何获得金币？</h3>
+        <p>命中角色、攒满解压值和升级时都能获得金币。金币可用于解锁鞭子、角色外观、配色、服装和场景。</p>
+        <h3>如何修改角色名字？</h3>
+        <p>从底部齿轮打开“设置”，选择“小象名字”；切换为老师傅后，也可在同一位置修改老师傅的名字。</p>
+        <h3>如何重置游戏？</h3>
+        <p>前往“设置 → 重置全部进度”。此操作会清除等级、金币和已解锁内容，但保留角色名字、语言与音效设置。</p>
+      </section>
+
+      <section class="card" aria-labelledby="english-title">
+        <h2 id="english-title">Support in English</h2>
+        <p>Tap the game screen for an automatic swing, or hold and drag the whip handle manually. Coins are earned from hits, a full meter, and leveling up. Open Settings from the bottom gear icon to rename a character or reset progress.</p>
+        <p>For support, email us with your app version, iPhone model, iOS version, steps to reproduce, and a screenshot when useful. Please do not send passwords or payment information.</p>
+      </section>
+
+      <nav class="nav" aria-label="Support links">
+        <a href="privacy.html">隐私政策 / Privacy Policy</a>
+        <a href="mailto:quickly520@126.com?subject=%E3%80%8A%E6%8A%BD%E8%B1%A1%E3%80%8B%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81">发送邮件</a>
+      </nav>
+      <footer>© 2026 Ember Origin</footer>
+    </main>
+  </body>
+</html>
